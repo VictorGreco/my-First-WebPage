@@ -1,0 +1,656 @@
+body{
+    margin: 0px;
+    /*parallax 2*/
+        background-image: url(../images/soccer.png);
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+/*--------------------------LOGO Y NOMBRE DEL CLUB----------------*/
+.full_logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+   background: rgb(16, 1, 0);
+    padding: 10px;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+}
+h1{
+    color: white;
+    font-size: 14pt;
+    margin: 10px;
+}
+
+/*--------------------------PARALLAX DEL HEADER-------------------------*/
+.image{
+    /*parallax 1*/
+    background-image:url(../images/futbol_menor_19.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:480px;
+}
+/*--------------------------------NAVEGADOR-----------------------------*/
+.nav a:hover{
+    background: rgb(171, 61, 66);
+}
+.nav2 a:hover{
+    background: rgb(171, 61, 66);
+}
+.nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 90px;
+    background: rgb(16, 1, 0);
+}
+.nav a{/*LINKS*/
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    height: 70px;
+    text-decoration: none;
+    font-size: 16pt;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+/*------------------------------TITULO DE LA PAGINA----------------------*/
+.sub_title{
+    font-weight: bold;
+    height: 40px;
+    width: 100%;
+    font-size: 20pt;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+    background: rgb(171, 61, 66);
+    background: rgba(171, 61, 66, 0.9);
+}
+.sub_title_text{
+    margin:auto;
+    text-align: center;
+    display: inline-block;
+    color: white;
+}
+/*---------------------------ARTICULO DE LA PAGINA----------------------*/
+.article{
+    background: rgba(0,0,0,0);
+    font-size: 15pt;
+    margin-top: 120px;
+    margin-bottom: 120px;
+    width: 100%;
+    text-align: justify;
+    color: black;
+}
+/*----------------------- INDEX COMMANDS----------------------------*/
+.article_home dt{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+}
+.article_home dd{
+    display: flex;
+    justify-content: center;
+}
+
+/*---------------------ONLY ABOUT PAGE/LIST COMMANDS----------------------*/
+.article_about dt{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.about_p1{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 40%;
+}
+.about_p2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+width: 30%;
+    order: -1;
+}
+.article_about {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-------------------------ONLY CONTACT PAGE-----------------------------*/
+.article_contact{
+    display: flex;
+    justify-content: center;
+    font-size: 17pt;
+}
+.article_contact p a{
+    text-decoration: none;
+}
+/*------------------------LIST COMMANDS ON RULES PAGE--------------------*/
+
+.article_rules{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.p_rules{
+    font-weight: bold;
+}
+.rule_inline_title{
+    font-weight: bold;
+}
+.single_text:hover{
+    background: rgb(171, 61, 66);
+    background: rgba(171, 61, 66, 0.2);
+}
+.single_text{
+    display: flex;
+    order: 1;
+    justify-content: center;
+    align-content: center;
+    width: 95%;
+}
+.single_text dl{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 40px;
+}
+.multi_text dl:hover{
+    background: rgb(171, 61, 66);
+    background: rgba(171, 61, 66, 0.2);
+}
+.multi_text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.multi_text dl{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 44%;
+    margin: 20px;
+    padding-right: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+/*    background: rgba(7,7,7,0.2)*/
+}
+dl dt{
+    font-weight: bold;
+}
+.equipment{
+    order: 0;
+}
+.sportsmanship{
+    order: 8;
+}
+.number_players{
+    order: 2;
+}
+.substitutions{
+    order: 7;
+}
+.confiscated_player_passes{
+    order: 6;
+}
+.all_play{
+    order: 9;
+}
+.players_equipment{
+    order: 1;
+}
+.mixed_teams{
+    order: 10;
+}
+.coaching_sidelines{
+    order: 4;
+}
+.game_termination{
+    order: 11;
+}
+.conditions_replay_games{
+    order: 5;
+}
+.referee_responsabilities{
+    order: 3;
+}
+.ul_rules{
+    list-style-type: square;
+}
+.ol_rules_2{
+    list-style-type: lower-alpha;
+}
+
+/*---------------------------TABLE COMMANDS ON GAME PAGE------------------*/
+
+.table0{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.table0 th{
+    border: none;
+    font-weight: bold;
+    font-size: 20pt;
+}
+
+.table_phone, .table_facility, .table_october, .table_september{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    border: 2px solid black;
+}
+.schedule{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+.table_october, .table_september{
+    height: 300px;
+    margin: 10px;
+    width: 48%;
+    width: 48%;
+}
+.color_hold{
+    background: rgb(171, 61, 66);
+    background: rgba(171, 61, 66, 0.5);
+}
+.color{
+    background: rgb(171, 61, 66);
+    background: rgba(171, 61, 66, 0.2);
+}
+table th{
+    margin: auto;
+    text-align: center;
+    width: 25%;
+}
+.game_locations{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.location_group{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.map_group{
+    display: flex;
+    width: 32%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 15px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.map_text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    width: 80%;
+    height: 30%;
+}
+.map_text span{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 17px;
+}
+iframe{
+    width: 80%;
+    height: 70%;
+}
+.map_group{
+    background: rgb(171, 61, 66);
+    background: rgba(171, 61, 66, 0.1);
+}
+.map_group:active{
+    background: rgb(171, 61, 66);
+    background: rgba(171, 61, 66, 0.3);
+}
+.contact_table{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.table_facility, .table_phone{
+    height: 200px;
+    margin: 30px;
+    margin-top: 100px;
+    width: 48%;
+}
+.table_facility{
+    width: 60%;
+}
+.table_phone{
+    width: 30%;
+}
+.table_facility td{
+    width: 90%;
+    margin: 30px;
+}
+.table_facility th{
+    width: 10%;
+    margin: 30px;
+}
+.image2{
+    /*parallax 3*/
+    background-image:url(../images/senza_titolo_34.png);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:150px;
+}
+/*------------------------------FORM--------------------------------------*/
+.article_form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:black;
+
+}
+form{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   justify-content: center;
+    align-items:stretch;
+    flex-wrap: wrap;
+    padding: 40px;
+
+}
+.fieldset1, .fieldset2, .fieldset3, .fieldset4, .fieldset5, .fieldset6{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+    background: rgba(255,255,255,0.2)
+
+}
+.fieldset1{
+    width: 15%;
+}
+.container_fieldset23456{
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+.fieldset2{
+   width: 50%; 
+    order: 2;
+}
+.fieldset3{
+   width: 45%;
+    order: 0;
+}
+.fieldset4{
+   width: 45%;
+    order: 1;
+}
+.fieldset5{
+    width: 40%;
+    order: 3;
+}
+.fieldset6{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    order: 4;
+}
+legend{
+    font-weight: bold;
+    font-size: 14pt;
+}
+.personal_info{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+.logo_form{
+    width: 50%;
+    margin: 50px;
+    
+}
+.name{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.name label{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.gender{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.gender label{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.living{
+     display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.living label{
+     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.parent_info{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.parent_info label{
+   display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.fieldset2_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+}
+.fieldset2_child label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.fieldset3_child{
+   display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fieldset3_child label{
+   display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 44%;
+    padding: 10px;
+}
+.fieldset4_child{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.fieldset4_child label{
+   display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 44%;
+    padding: 10px;
+}
+.fieldset5_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:  column;
+}
+.fieldset5_child label{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.fieldset6_child{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction:  row;
+}
+.fieldset6_child label{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+    width: 100%;
+    padding: 10px;
+}
+.fieldset6 span{
+    font-size: 12pt;
+}
+.fieldset6 button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 5px;
+    margin-top: 100px;
+    font-size: 20pt;
+    color: white;
+    background: rgb(2, 53, 169);
+    background: rgba(2, 53, 169, 1);
+}
+fieldset:hover{
+    background: rgb(171, 61, 66);
+    background: rgba(171, 61, 66, 0.2);
+}
+/*---------------------------------FOOTER------------------------------*/
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background:rgb(16, 1, 0);
+}
+.nav2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    background: rgb(16, 1, 0); 
+    margin: auto;
+    text-align: center;
+    padding-bottom: 5px;
+}
+.nav2 a{
+    width: 15%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 14pt;
+    color: white;
+    margin: 5px;
+    padding: 5px;
+}
+.copy{
+    color: white;
+    width: 50%;
+    margin: 30px;
+    font-size: 15px;
+}
+.show_data_article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.show_data_title{
+    font-weight: bold;
+    margin: 30px;
+}
+
+.error{
+    color: red;
+    font-size: 10pt;
+}

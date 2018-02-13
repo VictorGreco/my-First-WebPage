@@ -1,0 +1,39 @@
+#logo, #img {
+    float: left;
+    width: 90px;
+    height: 65px;
+    padding-bottom: 10px;
+}
+.logo, .img{
+    float: left;
+    width: 10%;
+    padding-top: 22px;
+    padding-left: 30px;
+}
+.title, .nav, .article {
+    float: right;
+    width: 87%;
+    
+}
+
+.article{
+    padding-left: 30px;
+    
+}
+
+
+/*Text align on the article div*/
+dt{
+    padding-left: 20px;
+    padding-bottom: 0px;
+}
+
+dd{
+    padding-left: 10px;
+    font-size: 10px;
+}
+
+#about_article_title{
+    font-weight: bold;
+    font-size: 15pt;
+}
