@@ -1,4 +1,4 @@
-# my-First-WebPage
+# my-first-website
 
 ## Introduction
 What to say... This was my very first webpage ever made. Not something outsmarting nor out-of-the-box but
